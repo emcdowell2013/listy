@@ -1,78 +1,18 @@
-2019-07-15T16:59:39.310176000 0.612012s notice: Recursively removing directory /Users/em060942/git-personal/listy/rethinkdb_data/tmp
-2019-07-15T16:59:39.311695000 0.613533s notice: Initializing directory /Users/em060942/git-personal/listy/rethinkdb_data
-2019-07-15T16:59:39.317596000 0.619429s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/em060942/git-personal/listy/rethinkdb_data' did not already exist or is empty.)
-2019-07-15T16:59:39.318114000 0.619947s notice: Running rethinkdb 2.3.6 (CLANG 10.0.0 (clang-1000.10.43.1))...
-2019-07-15T16:59:39.357329000 0.659162s notice: Running on Darwin 18.6.0 x86_64
-2019-07-15T16:59:39.357388000 0.659220s notice: Loading data from directory /Users/em060942/git-personal/listy/rethinkdb_data
-2019-07-15T16:59:39.416439000 0.718270s info: Automatically using cache size of 1050 MB
-2019-07-15T16:59:39.418936000 0.720767s notice: Listening for intracluster connections on port 29015
-2019-07-15T16:59:39.420169000 0.721999s notice: Listening for client driver connections on port 28015
-2019-07-15T16:59:39.420289000 0.722120s notice: Listening for administrative HTTP connections on port 8080
-2019-07-15T16:59:39.420316000 0.722147s notice: Listening on cluster addresses: 127.0.0.1, ::1
-2019-07-15T16:59:39.420324000 0.722155s notice: Listening on driver addresses: 127.0.0.1, ::1
-2019-07-15T16:59:39.420326000 0.722157s notice: Listening on http addresses: 127.0.0.1, ::1
-2019-07-15T16:59:39.420334000 0.722164s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2019-07-15T16:59:39.420339000 0.722170s notice: Server ready, "FVFXL0G2HV2H_c6p" 089ddc62-0426-47b9-a1d7-e2231cf10e44
-2019-07-15T17:00:36.161912000 57.462881s notice: Server got SIGINT from pid 41839, uid 762784476; shutting down...
-2019-07-15T17:00:36.162152000 57.463121s notice: Shutting down client connections...
-2019-07-15T17:00:36.162299000 57.463268s notice: All client connections closed.
-2019-07-15T17:00:36.162307000 57.463275s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
-2019-07-15T17:00:36.162664000 57.463633s notice: Storage engine shut down.
-2019-07-18T15:23:50.403731000 1.372671s notice: Running rethinkdb 2.3.6 (CLANG 10.0.0 (clang-1000.10.43.1))...
-2019-07-18T15:23:50.418351000 1.387285s notice: Running on Darwin 18.6.0 x86_64
-2019-07-18T15:23:50.418422000 1.387355s notice: Loading data from directory /Users/em060942/git-personal/listy/rethinkdb_data
-2019-07-18T15:23:50.481444000 1.450376s info: Automatically using cache size of 744 MB
-2019-07-18T15:23:50.482073000 1.451005s notice: Listening for intracluster connections on port 29015
-2019-07-18T15:23:50.483597000 1.452529s notice: Listening for client driver connections on port 28015
-2019-07-18T15:23:50.483699000 1.452632s notice: Listening for administrative HTTP connections on port 8080
-2019-07-18T15:23:50.483702000 1.452634s notice: Listening on cluster addresses: 127.0.0.1, ::1
-2019-07-18T15:23:50.483707000 1.452639s notice: Listening on driver addresses: 127.0.0.1, ::1
-2019-07-18T15:23:50.483709000 1.452641s notice: Listening on http addresses: 127.0.0.1, ::1
-2019-07-18T15:23:50.483713000 1.452645s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2019-07-18T15:23:50.483717000 1.452649s notice: Server ready, "FVFXL0G2HV2H_c6p" 089ddc62-0426-47b9-a1d7-e2231cf10e44
-2019-07-18T15:29:32.989049000 343.935537s info: Table 35a53624-c8ab-4c02-808e-3467e31fb999: Starting a new Raft election for term 1.
-2019-07-18T15:29:32.989491000 343.935979s info: Table 35a53624-c8ab-4c02-808e-3467e31fb999: Added replica on this server.
-2019-07-18T15:29:32.996905000 343.943392s info: Table 35a53624-c8ab-4c02-808e-3467e31fb999: This server is Raft leader for term 1. Latest log index is 0.
-2019-07-18T15:41:50.867803000 1081.796320s notice: Server got SIGINT from pid 1237, uid 762784476; shutting down...
-2019-07-18T15:41:50.867948000 1081.796465s notice: Shutting down client connections...
-2019-07-18T15:41:50.868324000 1081.796841s notice: All client connections closed.
-2019-07-18T15:41:50.868337000 1081.796853s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
-2019-07-18T15:41:50.871202000 1081.799719s notice: Storage engine shut down.
-2019-07-18T15:46:29.654429000 1.046770s notice: Running rethinkdb 2.3.6 (CLANG 10.0.0 (clang-1000.10.43.1))...
-2019-07-18T15:46:29.663232000 1.055571s notice: Running on Darwin 18.6.0 x86_64
-2019-07-18T15:46:29.663311000 1.055648s notice: Loading data from directory /Users/em060942/git-personal/listy/rethinkdb_data
-2019-07-18T15:46:29.691543000 1.083880s info: Automatically using cache size of 797 MB
-2019-07-18T15:46:29.700377000 1.092714s notice: Listening for intracluster connections on port 29015
-2019-07-18T15:46:29.720100000 1.112436s notice: Listening for client driver connections on port 28015
-2019-07-18T15:46:29.720235000 1.112571s notice: Listening for administrative HTTP connections on port 8080
-2019-07-18T15:46:29.720238000 1.112574s notice: Listening on cluster addresses: 127.0.0.1, ::1
-2019-07-18T15:46:29.720240000 1.112576s notice: Listening on driver addresses: 127.0.0.1, ::1
-2019-07-18T15:46:29.720241000 1.112577s notice: Listening on http addresses: 127.0.0.1, ::1
-2019-07-18T15:46:29.720297000 1.112633s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2019-07-18T15:46:29.720299000 1.112635s notice: Server ready, "FVFXL0G2HV2H_c6p" 089ddc62-0426-47b9-a1d7-e2231cf10e44
-2019-07-18T15:46:31.540533000 2.932825s info: Table 35a53624-c8ab-4c02-808e-3467e31fb999: Starting a new Raft election for term 2.
-2019-07-18T15:46:31.553350000 2.945642s info: Table 35a53624-c8ab-4c02-808e-3467e31fb999: This server is Raft leader for term 2. Latest log index is 3.
-2019-07-18T16:08:07.632221000 1298.991180s notice: Server got SIGINT from pid 1237, uid 762784476; shutting down...
-2019-07-18T16:08:07.632357000 1298.991316s notice: Shutting down client connections...
-2019-07-18T16:08:07.632557000 1298.991515s notice: All client connections closed.
-2019-07-18T16:08:07.632562000 1298.991520s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
-2019-07-18T16:08:07.639575000 1298.998534s notice: Storage engine shut down.
-2019-07-18T16:37:14.312271000 0.359710s notice: Running rethinkdb 2.3.6 (CLANG 10.0.0 (clang-1000.10.43.1))...
-2019-07-18T16:37:14.327161000 0.374597s notice: Running on Darwin 18.6.0 x86_64
-2019-07-18T16:37:14.327226000 0.374661s notice: Loading data from directory /Users/em060942/git-personal/listy/rethinkdb_data
-2019-07-18T16:37:14.359183000 0.406617s info: Automatically using cache size of 731 MB
-2019-07-18T16:37:14.364248000 0.411683s notice: Listening for intracluster connections on port 29015
-2019-07-18T16:37:14.441916000 0.489349s notice: Listening for client driver connections on port 28015
-2019-07-18T16:37:14.442170000 0.489602s notice: Listening for administrative HTTP connections on port 8080
-2019-07-18T16:37:14.442179000 0.489611s notice: Listening on cluster addresses: 127.0.0.1, ::1
-2019-07-18T16:37:14.442185000 0.489617s notice: Listening on driver addresses: 127.0.0.1, ::1
-2019-07-18T16:37:14.442187000 0.489619s notice: Listening on http addresses: 127.0.0.1, ::1
-2019-07-18T16:37:14.442189000 0.489621s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2019-07-18T16:37:14.442194000 0.489626s notice: Server ready, "FVFXL0G2HV2H_c6p" 089ddc62-0426-47b9-a1d7-e2231cf10e44
-2019-07-18T16:37:15.974151000 2.021544s info: Table 35a53624-c8ab-4c02-808e-3467e31fb999: Starting a new Raft election for term 3.
-2019-07-18T16:37:15.990569000 2.037961s info: Table 35a53624-c8ab-4c02-808e-3467e31fb999: This server is Raft leader for term 3. Latest log index is 6.
-2019-07-18T16:41:15.350424000 241.391635s notice: Server got SIGINT from pid 1237, uid 762784476; shutting down...
-2019-07-18T16:41:15.350610000 241.391800s notice: Shutting down client connections...
-2019-07-18T16:41:15.350833000 241.392023s notice: All client connections closed.
-2019-07-18T16:41:15.350839000 241.392028s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
-2019-07-18T16:41:15.374937000 241.416126s notice: Storage engine shut down.
+2020-06-09T12:28:36.894834000 0.016366s notice: Recursively removing directory /Users/mcdowele/listy/rethinkdb_data/tmp
+2020-06-09T12:28:36.897983000 0.019519s notice: Initializing directory /Users/mcdowele/listy/rethinkdb_data
+2020-06-09T12:28:36.898074000 0.019606s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/mcdowele/listy/rethinkdb_data' did not already exist or is empty.)
+2020-06-09T12:28:36.898120000 0.019652s notice: Running rethinkdb 2.4.0 (CLANG 11.0.0 (clang-1100.0.33.16))...
+2020-06-09T12:28:36.903563000 0.025095s notice: Running on Darwin 19.4.0 x86_64
+2020-06-09T12:28:36.903603000 0.025135s notice: Loading data from directory /Users/mcdowele/listy/rethinkdb_data
+2020-06-09T12:28:36.992682000 0.114211s info: Automatically using cache size of 1694 MB
+2020-06-09T12:28:36.993469000 0.114998s notice: Listening for intracluster connections on port 29015
+2020-06-09T12:28:36.994997000 0.116526s notice: Listening for client driver connections on port 28015
+2020-06-09T12:28:36.995036000 0.116565s notice: Listening for administrative HTTP connections on port 8080
+2020-06-09T12:28:36.995044000 0.116573s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-06-09T12:28:36.995048000 0.116577s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-06-09T12:28:36.995053000 0.116582s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-06-09T12:28:36.995056000 0.116585s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-06-09T12:28:36.995059000 0.116588s notice: Server ready, "C02YT83GLVCG_kqh" 5b3a7ac7-c710-4b6c-9d4c-becd509ea3c1
+2020-06-09T12:28:50.864092000 13.985234s info: Table 1fb1bfb5-4ae4-4014-bdb3-74f106539347: Starting a new Raft election for term 1.
+2020-06-09T12:28:50.864436000 13.985578s info: Table 1fb1bfb5-4ae4-4014-bdb3-74f106539347: Added replica on this server.
+2020-06-09T12:28:50.885293000 14.006434s info: Table 1fb1bfb5-4ae4-4014-bdb3-74f106539347: This server is Raft leader for term 1. Latest log index is 0.
