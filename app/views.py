@@ -11,6 +11,15 @@ def index():
     selection = list(r.table('todos').run(g.rdb_conn))
     return render_template('index.html', form=form, tasks=selection)
 
+@app.route("/delete/<string:task_id>")
+def delete_task(task_id):
+    #form = TaskForm()
+    r.table('todos').filter({"id": task_id}).delete().run(g.rdb_conn)
+    return redirect(url_for('index'))
+    #selection = list(r.table('todos').run(g.rdb_conn))
+    #return render_template('index.html', form=form, tasks=selection)
+
+
 # rethink imports
 import rethinkdb as rdb
 from rethinkdb.errors import RqlRuntimeError
