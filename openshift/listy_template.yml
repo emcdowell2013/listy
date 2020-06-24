@@ -66,17 +66,13 @@
         git:
           uri: "${SOURCE_REPOSITORY_URL}"
           ref: "${SOURCE_REPOSITORY_REF}"
-        sourceSecret:
-          name: "gitconfig"
         contextDir: "${CONTEXT_DIR}"
       strategy:
         type: Source
         sourceStrategy:
           from:
             kind: DockerImage
-            name: registry.redhat.io/ubi7/python-36
-          pullSecret:
-            name: 13254462-registry.redhat.io-pull-secret
+            name: "python:${PYTHON_VERSION}"
           env:
           - name: PIP_INDEX_URL
             value: "${PIP_INDEX_URL}"
