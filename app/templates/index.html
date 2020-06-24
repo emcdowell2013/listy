@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>Listy</h1>
+<h1>Welcome to Listy</h1>
 <p class="lead">A todo list application with Flask and RethinkDB</p>
 
 <form action="" role="form" method="POST" name="add_task">
@@ -9,7 +9,7 @@
 	<p>
 		<h4>Enter a task</h4>
 		{{form.label}}
-		<input type="submit" value="Send" class="btn btn-default btn-md">
+		<input type="submit" value="Add" class="btn btn-default btn-md">
 		{% for error in form.errors.label %}
 		<span style="color: red;">{{ error }}</span>
 		{% endfor %}
@@ -17,7 +17,10 @@
 </form>
 
 {% for task in tasks %}
-  <li>{{ task.name }}</li>
+	<li>
+			{{ task.name }}
+			<a href="/delete/{{ task.id }}">Delete</a>
+	</li>
 {% endfor %}
 
 {% endblock %}
