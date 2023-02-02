@@ -12,6 +12,6 @@ pylint==2.3.1
 rethinkdb==2.4.7
 six==1.12.0
 typed-ast==1.4.0
-Werkzeug==0.15.4
+Werkzeug==0.15.5
 wrapt==1.11.2
 WTForms==2.2.1
